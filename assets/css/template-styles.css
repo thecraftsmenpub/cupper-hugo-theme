@@ -5,6 +5,26 @@
     font-weight: bold;
     font-style: normal;
 }
+@font-face {
+    font-family: "Bookerly";
+    src: url('{{ "css/fonts/Bookerly-Regular.ttf" | absURL }}');
+}
+@font-face {
+    font-family: "Bookerly";
+    src: url('{{ "css/fonts/Bookerly-Bold.ttf" | absURL }}');
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Bookerly";
+    src: url('{{ "css/fonts/Bookerly-RegularItalic.ttf" | absURL }}');
+    font-style: italic;
+}
+@font-face {
+    font-family: "Bookerly";
+    src: url('{{ "css/fonts/Bookerly-BoldItalic.ttf" | absURL }}');
+    font-weight: bold;
+    font-style: italic;
+}
 *,
 *::before,
 *::after {
@@ -17,9 +37,9 @@
 }
 html {
     font-size: calc(1em + 0.33vw);
-    font-family: Arial, Helvetica Neue, sans-serif;
+    font-family: Bookerly;
     line-height: 1.5;
-    color: #111;
+    color: #2a2a2a;
     background-color: #fefefe;
 }
 template {
